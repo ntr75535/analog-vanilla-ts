@@ -22,7 +22,8 @@
     "@rollup/plugin-node-resolve": "latest"
     "@rollup/plugin-typescript": "latest",
     "rollup": "^4",
-    "typescript": "^5.7.3"
+    "typescript": "^5.7.3",
+    "tslib": "latest",
     "live-server": "latest"
   }
 }
