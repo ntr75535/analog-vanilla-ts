@@ -11,7 +11,7 @@ export default {
         sourcemap: true, // Source map for debugging
     },
     plugins: [
-        typescript({ useTsconfigDeclarationDir: true }),
+        typescript({ tsconfig: './tsconfig.json' }),
         nodeResolve({
             browser: true, // or node
         }),
