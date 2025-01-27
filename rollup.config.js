@@ -17,7 +17,7 @@ export default {
         }),
         commonjs(),
         babel({
-            babelHelpers: 'runtime',
+            babelHelpers: 'bundled',
             exclude: 'node_modules/**',
             extensions: ['.js', '.ts']
         })
