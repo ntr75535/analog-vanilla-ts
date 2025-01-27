@@ -1,0 +1,22 @@
+{
+  "name": "analog-clock",
+  "version": "1.0.0",
+  "description": "A simple analog clock",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w",
+    "dev": "npm run watch & live-server"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "latest",
+    "@rollup/plugin-node-resolve": "latest",
+    "@rollup/plugin-typescript": "latest",
+    "live-server": "latest",
+    "rollup": "^4",
+    "tslib": "^2",
+    "typescript": "next"
+  }
+}
