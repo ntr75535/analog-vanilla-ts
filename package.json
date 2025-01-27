@@ -19,7 +19,7 @@
     "@babel/preset-env": "latest",
     "@rollup/plugin-babel": "latest",
     "@rollup/plugin-commonjs": "latest",
-    "@rollup/plugin-node-resolve": "latest"
+    "@rollup/plugin-node-resolve": "latest",
     "@rollup/plugin-typescript": "latest",
     "rollup": "^4",
     "typescript": "^5.7.3",
