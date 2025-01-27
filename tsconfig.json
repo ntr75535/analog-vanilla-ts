@@ -2,7 +2,7 @@
   "compilerOptions": {
     "importHelpers": true,
     "target": "ES6",
-    "module": "commonjs",
+    "module": "ESNEXT",
     "lib": ["ES6","DOM","DOM.Iterable","WebWorker"],
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
@@ -12,7 +12,6 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "sourceMap": true,
     "outDir": "dist"
   },
   "include": [
