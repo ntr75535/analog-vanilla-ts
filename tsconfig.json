@@ -1,9 +1,13 @@
 {
   "compilerOptions": {
+    "importHelpers": true,
     "target": "ES6",
     "module": "commonjs",
     "lib": ["ES6","DOM","DOM.Iterable","WebWorker"],
     "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "removeComments": true,
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
