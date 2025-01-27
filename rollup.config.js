@@ -8,7 +8,7 @@ export default {
     output: {
         file: 'dist/bundle.js',
         format: 'iife', // Or 'es' for ES module
-        sourcemap: true, // Source map for debugging
+        sourcemap: false, // Source map for debugging
     },
     plugins: [
         typescript({ tsconfig: './tsconfig.json' }),
