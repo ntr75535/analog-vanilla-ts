@@ -1,9 +1,9 @@
  {
   "compilerOptions": {
     "target": "es6",
-    "lib": ["ES6","DOM","DOM.Iterable","WebWorker"],
-    "module": "commonjs",
-    "moduleResolution": "node",
+    "lib": ["es6","dom","dom.iterable","WebWorker"],
+    "module": "esnext",
+    "moduleResolution": "bundler",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
