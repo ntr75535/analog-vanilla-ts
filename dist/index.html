@@ -1,70 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Analog Clock</title>
-    <style>
-        #clock-container {
-            width: 300px;
-            height: 300px;
-            border: 2px solid #000;
-            border-radius: 50%;
-            position: relative;
-            margin: 50px auto;
-            background-color: #f0f0f0;
-        }
-
-        .hand {
-            position: absolute;
-            transform-origin: bottom;
-            background-color: black;
-        }
-
-        .hour-hand {
-          width: 4px;
-          height: 40%;
-          top: 10%;
-          left: 50%;
-          margin-left: -2px;
-        }
-
-        .minute-hand {
-          width: 3px;
-          height: 45%;
-          top: 5%;
-          left: 50%;
-          margin-left: -1.5px;
-        }
-
-        .second-hand {
-          width: 2px;
-          height: 48%;
-          top: 2%;
-          left: 50%;
-          margin-left: -1px;
-           background-color: red;
-        }
-        
-        .center-circle {
-            width: 10px;
-            height: 10px;
-            border-radius: 50%;
-            background-color: black;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Analog Clock</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="clock-container">
-        <div class="hand hour-hand"></div>
-        <div class="hand minute-hand"></div>
-        <div class="hand second-hand"></div>
-         <div class="center-circle"></div>
+  <div id="clock-container">
+    <div id="clock">
+      <div id="hour-hand"></div>
+      <div id="minute-hand"></div>
+      <div id="second-hand"></div>
+      <div id="center-dot"></div>
     </div>
-    <script src="./bundle.js"></script>
+  </div>
+  <script src=".index.js" dear></script>
 </body>
 </html>
