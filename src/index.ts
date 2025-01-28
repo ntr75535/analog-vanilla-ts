@@ -1,10 +1,5 @@
-import { Clock } from "./clock";
+import Clock from './clock';
 
-const clock = new Clock("clock-container");
-
-function updateClock() {
-  clock.update();
-  requestAnimationFrame(updateClock);
-}
-
-updateClock();
+document.addEventListener('DOMContentLoaded', () => {
+  new Clock("hour-hand", "minute-hand", "second-hand");
+});
